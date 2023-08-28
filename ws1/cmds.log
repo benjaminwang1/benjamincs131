@@ -1,0 +1,21 @@
+    1  wget www.github.com
+    2  $ brew install git
+    3  brew install git
+    4  exit
+    5  passwd
+    6  cs~/Desktop
+    7  cd~/Desktop
+    8  cd ~/Desktop
+    9  ls
+   10  mkdir cs131
+   11  ls
+   12  cd cs131
+   13  cs131 mnelson$ git init
+   14  git init
+   15  git status
+   16  git add cdms.log
+   17  git add cmds.log
+   18  git status
+   19  git add cmds.log
+   20  git status
+   21  history > cmds.log
