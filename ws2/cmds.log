@@ -1,0 +1,138 @@
+    1  wget www.github.com
+    2  $ brew install git
+    3  brew install git
+    4  exit
+    5  passwd
+    6  cs~/Desktop
+    7  cd~/Desktop
+    8  cd ~/Desktop
+    9  ls
+   10  mkdir cs131
+   11  ls
+   12  cd cs131
+   13  cs131 mnelson$ git init
+   14  git init
+   15  git status
+   16  git add cdms.log
+   17  git add cmds.log
+   18  git status
+   19  git add cmds.log
+   20  git status
+   21  history > cmds.log
+   22  git add cmds.log
+   23  git status
+   24  git commit -m "ws1"
+   25  git config --global user.email "benjaminw1017@gmail.com"
+   26  git config --global username "Benjamin Wang"
+   27  git config --global username benjaminwang1
+   28  git config --global username "benjaminwang1"
+   29  git config --global user.name "benjaminwang1"
+   30  git commit -m "ws1"
+   31  git branch -M main
+   32  git remote add origin https://github.com/benjaminwang1/benjamincs131.git
+   33  git push -u origin main
+   34  mkdir ws1
+   35  mv cmds.log ws1
+   36  git commit -m "moved"
+   37  git add ws1
+   38  git commit -m "moved"
+   39  git push -u origin main
+   40  exit
+   41  man head
+   42  ls
+   43  cd cs131
+   44  cd ws1
+   45  nano cmds.log
+   46  vim
+   47  cd sc131
+   48  ls
+   49  cd cs131
+   50  cd ws1
+   51  vim
+   52  cd cs131
+   53  cd ws1
+   54  vim cmds.log
+   55  ls
+   56  vim hellovim.txt
+   57  cp /datasets/taxidata.tar.gz .
+   58  gunzip taxidata.tar.gz
+   59  Copy the taxi dataset by cp /datasets/taxidata.tar.gz .
+   60  Unzip the taxi dataset (originally, .tar.gz. Check the tar command and some options required.)
+   61  grep for only the lines that have 2019-03-12 for their "dropoff" date (NOT pickup).
+   62  Redirect the last 20 entries (output) into a file named "results.txt" using redirection (using >)
+   63  Answer how many entries match the condition in total (using wc) by appending the count at the end of "results.txt" (using >>)
+   64  cp /datasets/taxidata.tar.gz .
+   65  clear
+   66  tar -xvzf taxidata.tar.gz
+   67  Redirect the last 20 entries (output) into a file named "results.txt" using redirection (using >)
+   68  clear
+   69  tar -xvzf taxidata.tar.gz
+   70  tar -xvf taxidata.tar.gz
+   71  gunzip taxidata.gz
+   72  gunzip taxidata.tar.gz
+   73  clear
+   74  ls taxidata.tar.gz
+   75  ls taxidata
+   76  cd 2019-01.cvs
+   77  cat 2019-01.csv
+   78  cd taxidata
+   79  ls
+   80  cd 2019.01.csv
+   81  cat 2019-01.csw
+   82  cat 2019-01.csv
+   83  cd taxidata
+   84  ls
+   85  grep -h "2019-03-12" taxidata
+   86  grep -h "2019-03-12" 2019-03.csv
+   87  grep -l "2019-03-12" 2019-03.csv
+   88  grep -v "2019-03-12" 2019-03.csv
+   89  grep -v "?2019-03-12" 2019-03.csv
+   90  cd taxidata
+   91  clear
+   92  grep -E "2019-03-12" 2019-03.csv
+   93  ls
+   94  cd 2019.csv
+   95  cd 2019-03.csv
+   96  grep -E "2019-03-12" 2019-03.csv
+   97  grep -E "2019-03-12" 2019-03.csv > results.txt
+   98  cd..
+   99  cd.
+  100  .
+  101  ..
+  102  :q
+  103  cd ..
+  104  ls
+  105  cd results.txt
+  106  grep -E "2019-03-12" 2019-03.csv > results.txt
+  107  cd taxidata
+  108  ls
+  109  cd resluts.txt
+  110  vim results.txt
+  111  cd taxidata
+  112  clear
+  113  ls
+  114  clear
+  115  vim results.txt
+  116  history cmds.log
+  117  history > cmsd.log
+  118  cmds.log
+  119  cd cmds.log
+  120  vim cmds.log
+  121  wc results.txt
+  122  cd cmds.log
+  123  cat cmds.log
+  124  cd ..
+  125  cdms.log
+  126  ls
+  127  cat cs131
+  128  cd cs131
+  129  ls
+  130  cat ws2
+  131  touch ws2
+  132  ls
+  133  cd ..
+  134  cd taxidata
+  135  ls
+  136  touch cmds.log
+  137  ls
+  138  history > cmds.log
