@@ -1,0 +1,32 @@
+  Question 1:
+  423  mkdir a1
+  Question 2: 
+  425  echo $HOME
+  Question3:
+  428  id -u
+  431  grep wang23fa /etc/group
+  Question 4:
+  436  mkdir temp
+  438  chmod u-x temp
+  439  cd temp
+  440  ls temp
+  441  ls -l temp
+  442  touch temp/testfile.txt
+  Question 5:
+  454  mkdir temp2
+  455  mv temp2 temp3
+  456  cp -r temp3 temp4
+  Question 6:
+  463  ls /proc/ | grep mem
+  464  ls /proc/ | grep cpu
+  Question 7:
+  466  cat /proc/meminfo |head
+  Question 8:
+  468  cat /proc/cpuinfo |grep -c '^processor'
+  470  cat /proc/cpuinfo | grep -c '^model name' head -n 1 | cut -d ':' -f 2- | sed 's/^[ \t]*//'
+  475  cat /proc/cpuinfo | grep 'cpu MHz' | head -n 1 | cut -d ':' -f 2- | sed 's/^[ \t]*//'
+  477  cat /proc/cpuinfo
+  Question 9:
+  479  cat /etc/os-release
+  Question 10:
+  481  ls -l /etc/os-release

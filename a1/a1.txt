@@ -1,0 +1,11 @@
+1) mkdir a1
+2) echo $HOME is used to find the home directory /mnt/scratch/wang23fa is the directory
+3)wang23fa:x:1136: is my UID and group and I used :grep wang23fa /etc/group
+4)I am not able to cd into the directory. Yes I can still ls it. I can still see the output of ls -l temp. I am not able to create files because no permession
+5)I am able to move the directories. I can also cp it. I will use cp -r
+6)using ls /proc/ | grep mem and ls /proc/ | grep cpu will give us the information
+7) 73080512kB is my total memory 
+8)there are 256 processors. 3425MHz which is 3.425GHz. Architecture POWER8
+9)the version is 8.6 and it is under etc/os-release
+10)given read permission
+ 
