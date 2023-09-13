@@ -1,0 +1,13 @@
+  338  cut -d ',' -f 8 2019-01.csv > temp.csv
+  341  sort temp.csv > temp2.csv
+  342  uniq -c temp2.csv
+  345  uniq -c temp2.csv > e.csv
+  348  uniq -c temp2.csv > ws3.txt
+  356  sort -nr e.csv > temp5.csv
+  362  head -3 temp5.csv > ws3.txt
+  364  cut -d ',' -f 8 2019-02.csv > t2.csv
+  365  sort t2.csv > t3.csv
+  366  uniq -c t3.csv > t4.csv
+  367  sort -nr t4.csv  > t5.csv
+  368  head -3 t5.csv > ws3.txt
+  378  head -3 temp5.csv >> ws3.txt
