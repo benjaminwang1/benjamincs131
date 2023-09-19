@@ -1,0 +1,18 @@
+  556  alias w='ls -l |wc'
+  557  source ~/.bashrc
+  558  w
+  559  l
+  560  w
+  564  l
+  565  alias l='ls -ltr'
+  566  source ~/.bashrc
+  604  mkdir ws4
+  606  mkdir FARE
+  613  awk -F, 'NR > 1 && (($8 == 48.0 && $9 == 161.0) || ($8 == 100.0 && $9 == 200.0)) {print $16 > "FARE/" $8 "-" $9 ".txt"}' 2019-06.csv
+  614  mkdir FARE
+  619  awk '{sum += $1; count++} END {print sum / count}' FARE/48.0-161.0.txt > ws4.txt
+  624  awk '{sum += $1; count++} END {print sum / count}' FARE/100.0-200.0.txt > ws4.txt
+  640  mv taxidata/FARE cs131/ws4
+  641  mv ws4.txt cs131/ws4
+  642  taxidata/ws4.txt >> cs131/ws4/ws4.txt
+  656  history > cmds.log

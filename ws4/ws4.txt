@@ -1,0 +1,40 @@
+Script started on 2023-09-19 17:23:29-04:00
+bash-4.4$ l
+total 10420568
+-rw-rw-r-- 1 wang23fa wang23fa      235676 Aug 28 16:29 index.html
+-rwxr-xr-x 1 wang23fa wang23fa 10670397440 Sep  5 20:56 taxidata.tar
+-rw-rw-r-- 1 wang23fa wang23fa           0 Sep  5 22:25 results.txt
+drwxr-xr-x 2 wang23fa wang23fa        4096 Sep 12 21:09 taxidata
+drwxrwxr-x 8 wang23fa wang23fa        4096 Sep 12 21:38 cs131
+drw-rwxr-x 2 wang23fa wang23fa        4096 Sep 12 21:46 temp
+drwxrwxr-x 2 wang23fa wang23fa        4096 Sep 12 21:50 temp3
+drwxrwxr-x 2 wang23fa wang23fa        4096 Sep 12 21:51 temp4
+-rw-rw-r-- 1 wang23fa wang23fa           0 Sep 18 16:41 ps
+-rw-rw-r-- 1 wang23fa wang23fa           0 Sep 19 17:23 ws4.txt
+bash-4.4$ w
+ 17:23:33 up 138 days,  3:37, 24 users,  load average: 1.23, 1.28, 1.23
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+junf23   pts/0    172.29.97.182    16:18    4:05   0.04s  0.04s -bash
+chenkyle pts/1    172.29.97.183    16:58    1:01   0.03s  0.00s tmux new-session -s homework
+leonardo pts/3    172.29.97.198    15:17   17:41   0.27s  0.27s -bash
+tak23fa  pts/13   172.29.97.192    15:30    1:53m  0.03s  0.03s -bash
+reyesazu pts/19   172.29.97.184    16:20   52:11   0.04s  0.04s -bash
+jaspreet pts/22   172.29.97.190    15:54   49:57   0.26s  0.26s -bash
+hishaam2 pts/23   172.29.97.194    16:33   34:35   0.03s  0.03s -bash
+reyesazu pts/24   172.29.97.192    16:35    5.00s  0.69s  0.65s vim a1.txt
+manh23fa pts/27   172.29.97.193    16:35   45:49   0.05s  0.05s -bash
+manh23fa pts/32   172.29.97.193    16:58   24:37   4.65s  4.61s vim 2019-05.csv
+manh23fa pts/34   172.29.97.193    16:48   27:49   0.12s  0.12s -bash
+reyesazu pts/36   172.29.97.192    16:48   49.00s  0.10s  0.10s -bash
+chenkyle pts/39   -                17:06    1:01   0.03s  0.00s vi /mnt/scratch/FA23_online/chenkyle/.bashrc
+manh23fa pts/40   172.29.97.193    17:07   10:29   0.07s  0.07s -bash
+wang23fa pts/41   172.29.97.184    17:18    5.00s  0.04s  0.00s script ws4.txt
+tak23fa  pts/43   172.29.97.193    17:20   52.00s  0.05s  0.05s -bash
+tak23fa  pts/45   172.29.97.193    17:23    5.00s  0.05s  0.05s -bash
+wang23fa pts/47   -                17:23    4.00s  0.04s  0.04s w
+bash-4.4$ exit
+
+Script done on 2023-09-19 17:23:35-04:00
+
+FARE/100.0-200.0.txt: 0.283784
+FARE/48.0-161.0.txt: 0.299046
