@@ -1,0 +1,25 @@
+Question 1:
+average = 17.99
+
+Question 2:
+max = 1309.8
+
+Question 3:
+First is 288108 times 236.0
+Second is 275792 times 237.0
+Third is  262941 times 161.0
+Fourth is 205989 times 230.0
+Fifth is 205675 times 170.0
+Sixth is 201612 times 162.0
+Seventh is 187211 times 142.0
+Eighth is 179086 times 48.0
+Ninth is  174439 times 234.0
+Tenth is 173856 times 239.0
+
+Question 4:
+
+Top pickup location is 347992 times: 237.0
+Top drop off location is 52363 times: 236.0
+
+Question 5:
+Most busiest location is 3641682 pick up time throughout a year: 237.0
