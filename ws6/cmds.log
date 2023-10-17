@@ -1,0 +1,9 @@
+ 1100  sed -n '/^2.0/ p' 2019-11.csv > vendor2.csv
+ 1127  sed 's/[:"-]//g' 2019-11.csv > no-seperators.csv
+ 1139  sed -r 's/\.([0-9]+)//g' no-seperators.csv > no-fraction.csv
+ 1141  wc vendor2.csv > ws6.txt
+ 1142  head -10 no-seperators.csv >> ws6.txt 
+ 1143  wc no-seperators.csv >> ws6.txt 
+ 1144  head -10 no-fraction.csv >> ws6.txt 
+ 1155  wc no-fraction.csv >> ws6.txt 
+ 1166  history > cmds.log 
