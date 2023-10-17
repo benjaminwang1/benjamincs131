@@ -2,5 +2,5 @@
   880  for doLoc in $(cat top100doloc.txt); do grep -E "^([^,]*,){8}$doLoc" ~/taxidata/2019-08.csv > do234/$doLoc.txt; done
   881  wc -l do234/1.0.txt > ws5.txt
   882  wc -l do234/3.0.txt >> ws5.txt
-  883  wc -l do234/48.0.txt > ws5.txt
+  883  wc -l do234/48.0.txt >> ws5.txt
   884  wc -l do234/223.0.txt >> ws5.txt
