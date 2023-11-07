@@ -1,0 +1,1 @@
+The problem I attempted to resolve was that, for the television series that haven't concluded yet, we could use (2013-present) for example, rather than just (2013-). Since we only see '-' during the year that the television program hasn't concluded yet, I changed anything that included '-' to '-present'.
