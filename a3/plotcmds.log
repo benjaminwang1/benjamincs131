@@ -1,0 +1,37 @@
+Q3:
+load 'a3t3.plt' 
+set term dumb
+set term svg
+set out "a3t3.svg"
+set boxwidth 0.6 relative
+
+set title "Average total amount on a number of passengers"
+set xlabel "Number of passengers"
+set ylabel "Average total amount"
+
+set style data histogram
+
+set xrange [-1:10]
+set yrange [0:]
+
+set datafile separator ','
+
+plot "a3t3_sorted.dat" using 1:2:xtic(1) with boxes fill solid lc rgbcolor "coral" title "Average total amount"
+
+Q4:
+load 'a3t4.plt'  
+set style fill transparent solid 0.2 noborder
+
+set datafile separator ','
+
+set terminal svg
+set out 'a3t4.svg'
+
+set title "Correlation between travel distance and total amount" 
+set xlabel "Travel distance"
+
+NO_ANIMATION = 1
+set autoscale x
+set autoscale y
+
+plot 'a3t4.dat' using 1:2 with points lc rgb 'coral' 

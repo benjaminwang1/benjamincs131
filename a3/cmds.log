@@ -1,0 +1,18 @@
+Q1:
+  905  vi top_10_pu_location_awk
+  908  awk -f top_10_pu_location_awk ../2019-08.csv | sort -nr | head -10 > a3.txt 
+Q2:
+  909  vi top_10_pair_location_awk
+  919  awk -f top_10_pair_location_awk ../2019-08.csv | sort -nr | head -1 >> a3.txt 
+Q3:
+  923  vi q3_data_awk
+  927  awk -f q3_data_awk ../2019-08.csv > a3t3.dat
+  931  cat a3t3.dat | sort -n > a3t3_sorted.dat  :a3t3_sorted is for saving sorted result 
+  954  vi a3t3.plt
+  955  gnuplot
+Q4:
+  960  vi q4_data_awk
+  966  awk -f q4_data_awk ../2019-08.csv | sort -n > a3t4.dat
+  972  vi a3t4.plt
+  977  gnuplot
+
